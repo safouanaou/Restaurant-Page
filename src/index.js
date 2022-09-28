@@ -1,1 +1,3 @@
-console.log('test webpack project');
+import * as module from './initial-page-load'
+
+module.initialPageLoad()
