@@ -1,1 +1,1 @@
-console.log("test webpack project");
+(()=>{"use strict";!function(){const t=document.getElementById("content"),e=document.createElement("h1");e.textContent="Fibonacci Restaurant",e.classList.add("title"),t.appendChild(e);const n=document.createElement("img");n.src="../src/assets/resto.jpg",n.classList.add("image"),t.appendChild(n);const a=document.createElement("p");a.textContent="mamamia",a.classList.add("parOne"),t.appendChild(a)}()})();
