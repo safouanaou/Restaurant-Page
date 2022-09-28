@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #content{
     text-align: center;
     min-height: 100vh;
@@ -15,4 +22,18 @@
 
 .parOne{
     font-size: 3rem;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    font-size: 2rem;
+    list-style:none;
+    font-weight: 700;
+}
+
+.navbar li:hover{
+    cursor: pointer;
+    color: rgb(217, 148, 20);
 }

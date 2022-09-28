@@ -1,5 +1,8 @@
 export function initialPageLoad(){
     const contentDiv = document.getElementById('content');
+
+    contentDiv.replaceChildren();
+
     const heading = document.createElement('h1');
     heading.textContent = "Fibonacci Restaurant";
     heading.classList.add('title');

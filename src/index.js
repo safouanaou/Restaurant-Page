@@ -1,3 +1,13 @@
-import * as module from './initial-page-load'
+import {initialPageLoad} from './initial-page-load';
+import {menuPage} from './menu';
 
-module.initialPageLoad()
+initialPageLoad()
+
+let tabSwitchingModule  = (function(){
+    const homeTab = document.getElementById('home');
+    homeTab.addEventListener('click', initialPageLoad);
+
+    const menuTab = document.getElementById('menu');
+    menuTab.addEventListener('click', menuPage);
+
+})()
