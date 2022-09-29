@@ -1,3 +1,5 @@
+import restoImg from './assets/resto.jpg';
+
 export function initialPageLoad(){
     const contentDiv = document.getElementById('content');
 
@@ -9,7 +11,7 @@ export function initialPageLoad(){
     contentDiv.appendChild(heading);
 
     const image = document.createElement('img');
-    image.src = "../src/assets/resto.jpg";
+    image.src = restoImg;
     image.classList.add('image');
     contentDiv.appendChild(image);
 

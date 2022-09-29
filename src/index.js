@@ -1,5 +1,6 @@
 import {initialPageLoad} from './initial-page-load';
 import {menuPage} from './menu';
+import './style.css'
 
 initialPageLoad()
 

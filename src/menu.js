@@ -1,3 +1,8 @@
+import couscousImg from './assets/couscous.jpeg';
+import tajineImg from './assets/tajine-au-poulet.jpeg';
+import chickenImg from './assets/moroccan-chicken.jpg';
+
+
 export function menuPage(){
     const contentDiv = document.getElementById('content');
 
@@ -8,7 +13,7 @@ export function menuPage(){
     firstMealName.classList.add('couscous');
 
     const firstMealImage = document.createElement('img');
-    firstMealImage.src = '../src/assets/couscous.webp';
+    firstMealImage.src = couscousImg;
     firstMealImage.classList.add('couscousImg');
 
     const firstMealDescription = document.createElement('p');
@@ -26,7 +31,7 @@ export function menuPage(){
     secondMealName.classList.add('tajine');
 
     const secondMealImage = document.createElement('img');
-    secondMealImage.src = '../src/assets/tajine-au-poulet.jpeg';
+    secondMealImage.src = tajineImg;
     secondMealImage.classList.add('tajineImg');
 
     const secondMealDescription = document.createElement('p');
@@ -45,7 +50,7 @@ export function menuPage(){
     thirdMealName.classList.add('chicken');
 
     const thirdMealImage = document.createElement('img');
-    thirdMealImage.src = '../src/assets/moroccan-chicken.jpg';
+    thirdMealImage.src = chickenImg;
     thirdMealImage.classList.add('chickenImg');
 
     const thirdMealDescription = document.createElement('p');
